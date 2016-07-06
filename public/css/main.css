@@ -1,0 +1,21 @@
+.fast {
+    animation:             blink 300ms linear infinite;
+        -moz-animation:    blink 300ms linear infinite;
+        -webkit-animation: blink 300ms linear infinite;
+}
+
+.regular {
+    animation:             blink 750ms linear infinite;
+        -moz-animation:    blink 750ms linear infinite;
+        -webkit-animation: blink 750ms linear infinite;
+}
+
+.slow {
+    animation:             blink 6500ms linear infinite;
+        -moz-animation:    blink 6500ms linear infinite;
+        -webkit-animation: blink 6500ms linear infinite;
+}
+
+@keyframes             blink { 0% {opacity:0;} 50% {opacity:1;} 100% {opacity:0;} }
+    @-moz-keyframes    blink { 0% {opacity:0;} 50% {opacity:1;} 100% {opacity:0;} }
+    @-webkit-keyframes blink { 0% {opacity:0;} 50% {opacity:1;} 100% {opacity:0;} }
